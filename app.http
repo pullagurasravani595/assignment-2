@@ -1,0 +1,67 @@
+//API1
+
+POST http://localhost:3000/register/
+Content-Type: application/json
+
+{
+  "username": "adam_richard",
+  "password": "richard_567",
+  "name": "Adam Richard",
+  "gender": "male"
+}
+###
+
+//API2
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+  "username":"JoeBiden",
+  "password":"biden@123"
+}
+###
+//api 3
+
+GET http://localhost:3000/user/tweets/feed/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjcwOTEzNDA0fQ.Twd1k0YrswYRSZbQRPFrhUTRnXvGHwaUbQ52SQzg54E
+###
+
+//API 4 
+GET http://localhost:3000/user/following/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjcwOTEzNDA0fQ.Twd1k0YrswYRSZbQRPFrhUTRnXvGHwaUbQ52SQzg54E
+###
+
+//API 5
+GET http://localhost:3000/user/followers/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjcwOTEzNDA0fQ.Twd1k0YrswYRSZbQRPFrhUTRnXvGHwaUbQ52SQzg54E
+###
+
+// API 6 
+GET http://localhost:3000/tweets/6/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjcwOTEzNDA0fQ.Twd1k0YrswYRSZbQRPFrhUTRnXvGHwaUbQ52SQzg54E
+###
+
+//API 8
+GET http://localhost:3000/tweets/2/replies/
+Authorization:  Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjcwOTEzNDA0fQ.Twd1k0YrswYRSZbQRPFrhUTRnXvGHwaUbQ52SQzg54E
+###
+
+ 
+// API 9
+GET http://localhost:3000/user/tweets/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjcwOTEzNDA0fQ.Twd1k0YrswYRSZbQRPFrhUTRnXvGHwaUbQ52SQzg54E
+###
+
+//api10 
+POST http://localhost:3000/user/tweets/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjcwOTEzNDA0fQ.Twd1k0YrswYRSZbQRPFrhUTRnXvGHwaUbQ52SQzg54E
+
+{
+   "tweet": "The Mornings..."
+}
+### 
+
+//api11
+DELETE http://localhost:3000/tweets/3/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjcwOTEzNDA0fQ.Twd1k0YrswYRSZbQRPFrhUTRnXvGHwaUbQ52SQzg54E
+###
