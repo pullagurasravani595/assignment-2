@@ -274,13 +274,3 @@ app.delete(
 );
 
 module.exports = app;
-
-//SELECT
-//name,
-//(
-//SELECT AVG(rating)
-// FROM product
-//WHERE category = "WATCH"
-//) - rating AS rating_variance
-//FROM product
-//WHERE category = "WATCH";
